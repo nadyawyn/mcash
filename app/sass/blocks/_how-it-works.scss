@@ -1,9 +1,39 @@
 .how-it-works {
 	background-color: #f9f7f7;
+
+	&__wrapper {
+		width: 1170px;
+		margin: 0 auto;
+
+		outline: 1px solid red;
+
+	}
 	&__ul {
+		@include reset-list;
+		width: 100%;
+
+		display: flex;
+
+		flex-flow: row wrap;
+		justify-content: space-between;
+
+		margin-top: 60px;
+
+		font-size: 18px;
+
+		li {
+			flex-basis: 30%;
+			margin-bottom: 30px;
+		}
 	}
 
 	&__h3 {
+		font-size: 30px;
+		font-family: Georgia, 'Times New Roman', Times, serif;
+		color: #4c4c4c;
+
+		font-weight: normal;
+
 	}
 }
 .section {
