@@ -123,6 +123,13 @@
 			border-radius: 30px;
 			background-color: #3f72af;
 			color: #ffffff;
+			cursor: pointer;
+			border: none;
+		}
+		button:hover,
+		button:focus {
+			background-color: #518dd6;
+			box-shadow: 0 0 10px rgba(0,0,0,0.5);
 		}
 	}
 

@@ -170,7 +170,14 @@ section {
   .page-header__form-form button {
     border-radius: 30px;
     background-color: #3f72af;
-    color: #ffffff; }
+    color: #ffffff;
+    cursor: pointer;
+    border: none; }
+  .page-header__form-form button:hover,
+  .page-header__form-form button:focus {
+    background-color: #518dd6;
+    -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); }
 
 .page-header__form-tel {
   width: 320px;
@@ -426,7 +433,14 @@ section {
       border: 2px solid #ffffff;
       background: none;
       border-radius: 30px;
-      font-size: 16px; }
+      font-size: 16px;
+      cursor: pointer; }
+    .plans-calc__form .button:hover,
+    .plans-calc__form .button:focus {
+      background-color: #518dd6;
+      color: #efefef;
+      -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+              box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); }
 
 .page-footer {
   background-color: #112d4e;

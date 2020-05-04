@@ -49,6 +49,15 @@
 			border-radius: 30px;
 
 			font-size: 16px;
+
+			cursor: pointer;
+		}
+
+		.button:hover,
+		.button:focus {
+			background-color: #518dd6;
+			color: #efefef;
+			box-shadow: 0 0 10px rgba(0,0,0,0.5);
 		}
 	}
 }
