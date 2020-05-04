@@ -125,7 +125,8 @@ section {
     border-radius: 10px; }
   .page-header__nav-ul li a.page-header__contact-us:hover {
     text-decoration: none;
-    background-color: #5c4a4a; }
+    background-color: #8b8b8b;
+    color: #ffffff; }
 
 .page-header__slogan {
   display: block;
@@ -231,8 +232,7 @@ section {
 
 .features__wrapper {
   width: 1170px;
-  margin: 0 auto;
-  outline: 1px solid red; }
+  margin: 0 auto; }
 
 .features__ul {
   margin: 0;
@@ -307,8 +307,7 @@ section {
   background-color: #f9f7f7; }
   .how-it-works__wrapper {
     width: 1170px;
-    margin: 0 auto;
-    outline: 1px solid red; }
+    margin: 0 auto; }
   .how-it-works__ul {
     margin: 0;
     padding: 0;
@@ -385,7 +384,49 @@ section {
   background-color: #f9f7f7; }
 
 .plans-calc {
-  background-color: #3f72af; }
+  background-color: #3f72af;
+  background-image: url(../img/calc-bg001.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 222px; }
+  .plans-calc__form {
+    width: 1000px;
+    height: 90px;
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-flow: column wrap;
+        -ms-flex-flow: column wrap;
+            flex-flow: column wrap;
+    -webkit-align-content: space-around;
+        -ms-flex-line-pack: distribute;
+            align-content: space-around;
+    -webkit-box-pack: end;
+    -webkit-justify-content: flex-end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    color: #ffffff;
+    font-size: 18px; }
+    .plans-calc__form input {
+      width: 232px;
+      height: 10px;
+      padding: 20px;
+      margin-top: 15px;
+      border-radius: 30px;
+      border: none; }
+    .plans-calc__form .button {
+      width: 272px;
+      height: 50px;
+      color: #ffffff;
+      border: 2px solid #ffffff;
+      background: none;
+      border-radius: 30px;
+      font-size: 16px; }
 
 .page-footer {
   background-color: #112d4e;

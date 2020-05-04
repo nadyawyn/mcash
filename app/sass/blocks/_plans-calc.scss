@@ -1,10 +1,54 @@
 .plans-calc {
 	background-color: #3f72af;
-}
-.section {
 
-		&__h2 {
+	background-image: url(../img/calc-bg001.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+
+	height: 222px;
+
+	&__form {
+		width: 1000px;
+		height: 90px;
+
+		margin: 0 auto;
+
+		display: flex;
+		flex-flow: column wrap;
+		align-content: space-around;
+		justify-content: flex-end;
+
+		color: #ffffff;
+
+		font-size: 18px;
+
+		input {
+			width: 232px;
+			height: 10px;
+
+			padding: 20px;
+
+			margin-top: 15px;
+
+			border-radius: 30px;
+
+			border: none;
 		}
-}
-.visually-hidden {
+
+		.button {
+			width: 272px;
+			height: 50px;
+
+			color: #ffffff;
+
+			border: 2px solid #ffffff;
+
+			background: none;
+
+			border-radius: 30px;
+
+			font-size: 16px;
+		}
+	}
 }

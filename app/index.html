@@ -160,10 +160,12 @@
 		<section class="plans-calc">
 			<h2 class="section__h2 visually-hidden">Calculate your plan</h2>
 			<!--TODO Form elements! -->
-			<form>
-				<input type="number">
-				<input type="select">
-				<button>Submit</button>
+			<form class="plans-calc__form">
+				<label for="emp-number">Number of employees</label>
+				<input type="number" id="emp-number" class="plans-calc__emp-number">
+				<label for="used">For the payroll, I use:</label>
+				<input type="select" id="used" class="plans-calc__used">
+				<button class="button">Submit</button>
 			</form>
 		</section>
 		<section class="price">
