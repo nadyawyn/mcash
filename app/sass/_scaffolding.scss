@@ -5,7 +5,7 @@ html {
 body {
 	background-color: $bg-color;
 	font-family: "Myriad Pro", Arial, Helvetica, sans-serif;
-	font-size: 16px;
+	font-size: 15px;
 }
 img {
 	max-width: 100%;
@@ -30,3 +30,5 @@ img {
 .disabled {
 	cursor:default;
 }
+
+@import "blocks/page-header";
