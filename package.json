@@ -1,0 +1,22 @@
+{
+  "name": "blogstandard",
+  "version": "1.0.0",
+  "description": "Portfolio project for \"Blog Standard\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nadyawyn/blogstandard.git"
+  },
+  "author": "nadya podkurkova",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nadyawyn/blogstandard/issues"
+  },
+  "homepage": "https://github.com/nadyawyn/blogstandard#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2"
+  }
+}
