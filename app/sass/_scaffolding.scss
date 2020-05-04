@@ -35,4 +35,53 @@ img {
 	background-color: #ffffff;
 }
 
+section {
+	width: 100%;
+	padding-top: 72px;
+}
+
+.section__h2 {
+	text-align: center;
+
+	font-family: Georgia, 'Times New Roman', Times, serif;
+
+	font-size: 36px;
+
+	color: #112d4e;
+
+	font-weight: normal;
+}
+
+.section__subtitle {
+	display: block;
+	text-align: center;
+	text-transform: uppercase;
+	color: #4c4c4c;
+	font-size: 14px;
+
+	position: relative;
+}
+
+.section__subtitle::before {
+	content: "";
+	width: 40px;
+	height: 1px;
+
+	position: absolute;
+	left: 50%;
+	top: -18px;
+
+	margin-left: -20px;
+
+	background-color: #3f72af;
+}
+
+
 @import "blocks/page-header";
+@import "blocks/features";
+@import "blocks/how-it-works";
+@import "blocks/partners";
+@import "blocks/faq";
+@import "blocks/plans-calc";
+
+@import "blocks/page-footer";
