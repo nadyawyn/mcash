@@ -1,5 +1,5 @@
 .price {
-
+	padding-bottom: 100px;
 	&__ul {
 		@include reset-list;
 
@@ -56,6 +56,10 @@
 	&__item:nth-child(odd){
 		position: relative;
 
+		h3 {
+			background-color: #3f72af;
+		}
+
 		.button-choose {
 			background-color: #3f72af;
 			
@@ -70,6 +74,10 @@
 	}
 	&__item:nth-child(even){
 		position: relative;
+
+		h3 {
+			background-color: #112d4e;
+		}
 
 		.button-choose {
 			background-color: #112d4e;
