@@ -1,9 +1,50 @@
 .faq {
 	background-color: #f9f7f7;
+
+	&__wrapper {
+		outline: 1px solid salmon;
+
+		width: 1170px;
+		height: 330px;
+
+		margin: 0 auto;
+		display: flex;
+		flex-flow: column wrap;
+
+		justify-content: flex-start;
+		align-content: space-between;
+	}
+
 	&__item {
+		//flex-basis: 40%;
+		outline: 1px solid yellowgreen;
+
+		width: 570px;
+
+		font-size: 15px;
+		line-height: 1.5em;
+
+		h3 {
+			font-size: 20px;
+			font-weight: normal;
+			margin-bottom: 20px;
+
+		}
 	}
 
 	&__button {
+		display: block;
+		background-color: #3f72af;
+		border-radius: 20px;
+		width: 200px;
+		height: 50px;
+
+		border: none;
+
+		margin: 0 auto;
+
+		color: #ffffff;
+		font-size: 20px;
 	}
 }
 .section {

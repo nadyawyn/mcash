@@ -445,6 +445,46 @@ section {
 
 .faq {
   background-color: #f9f7f7; }
+  .faq__wrapper {
+    outline: 1px solid salmon;
+    width: 1170px;
+    height: 330px;
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-flow: column wrap;
+        -ms-flex-flow: column wrap;
+            flex-flow: column wrap;
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-align-content: space-between;
+        -ms-flex-line-pack: justify;
+            align-content: space-between; }
+  .faq__item {
+    outline: 1px solid yellowgreen;
+    width: 570px;
+    font-size: 15px;
+    line-height: 1.5em; }
+    .faq__item h3 {
+      font-size: 20px;
+      font-weight: normal;
+      margin-bottom: 20px; }
+  .faq__button {
+    display: block;
+    background-color: #3f72af;
+    border-radius: 20px;
+    width: 200px;
+    height: 50px;
+    border: none;
+    margin: 0 auto;
+    color: #ffffff;
+    font-size: 20px; }
 
 .plans-calc {
   background-color: #3f72af;
