@@ -405,16 +405,16 @@ section {
     -webkit-justify-content: space-around;
         -ms-flex-pack: distribute;
             justify-content: space-around;
-    -webkit-align-content: center;
-        -ms-flex-line-pack: center;
-            align-content: center;
+    margin: 0 auto;
+    text-align: center;
     margin-top: 30px;
     margin-bottom: 30px; }
     .features__ul li {
       padding-top: 100px;
       display: block;
-      width: 265px;
       height: 190px;
+      padding-left: 20px;
+      padding-right: 20px;
       position: relative; }
       .features__ul li p {
         text-align: center; }

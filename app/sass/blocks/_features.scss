@@ -12,7 +12,10 @@
 		flex-flow: column wrap;
 		justify-content: space-around;
 
-		align-content: center;	
+		//align-content: center;	
+
+		margin: 0 auto;
+		text-align: center;
 		margin-top: 30px;
 		margin-bottom: 30px;
 
@@ -20,8 +23,9 @@
 			padding-top: 100px;
 
 			display: block;
-			width: 265px;
 			height: 190px;
+			padding-left: 20px;
+			padding-right: 20px;
 
 			p {
 				text-align: center;
