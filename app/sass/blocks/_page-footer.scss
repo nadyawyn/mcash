@@ -113,6 +113,120 @@
 		}
 	}
 }
+
+// Styles for Tablet 
+
+@media(min-width:($tablet-width + 1px)) and (max-width:$desktop-width){
+	.page-footer {
+		background-color: #112d4e;
+		color: #ffffff;
+	
+		margin-top: -15px;
+	
+		padding-bottom: 50px;
+	
+		a {
+			color: #ffffff;
+			text-decoration: none;
+		}
+		a:hover,
+		a:focus {
+			text-decoration: underline;
+		}
+	
+		&__wrapper {
+			display: flex;
+	
+			flex-flow: row nowrap;
+			justify-content: space-between;
+	
+			margin-left: 55px;
+			margin-right: 55px;
+			padding-top: 70px;
+	
+			border-bottom: 1px solid #ffffff;
+	
+		}
+		&__item {
+			flex-shrink: 1;
+		}
+	
+		&__company-info {
+			width: 370px;
+			height: 200px;
+	
+			line-height: 1.6em;
+		}
+	
+		&__logo {
+			width: 199px;
+			height: 51px;
+			display: block;
+	
+			background-image: url(../img/logo-white.png);
+			background-repeat: no-repeat;
+		}
+	
+		&__documents {
+			ul {
+				@include reset-list;
+	
+				line-height: 2em;
+				li {
+					display: block;
+				}
+			}
+		}
+	
+		&__menu {
+			ul {
+				@include reset-list;
+				line-height: 2em;
+			}
+		}
+	
+		&__about {
+			ul {
+				@include reset-list;
+				line-height: 2em;
+			}
+		}
+	
+		&__social {
+			ul {
+				@include reset-list;
+				line-height: 2em;
+	
+				display: flex;
+				flex-flow: row wrap;
+	
+				justify-content: space-between;
+			}
+		}
+		&__social-icon {
+			background-repeat: no-repeat;
+			background-position: center;
+		
+			
+				display: block;
+				width: 30px;
+				height: 30px;
+			
+		}
+		
+		.icon-facebook {
+			background-image: url(../img/icon-facebook.png);
+		}
+		.icon-linkedin {
+			background-image: url(../img/icon-linkedin.png);
+		}
+	
+		&__legal-address {
+			padding-top: 40px;
+			text-align: center;
+		}
+	}
+}	
 //Styles for Desktop
 
 @media(min-width:$desktop-width) {

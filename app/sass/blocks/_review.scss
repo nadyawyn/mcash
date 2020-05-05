@@ -64,6 +64,71 @@
 	}
 }
 
+// Styles for Tablet 
+
+@media(min-width:($tablet-width + 1px)) and (max-width:$desktop-width){
+	.review {
+		padding-top:30px;
+		&__ul {
+			display: flex;
+			flex-flow: row nowrap;
+			justify-content: flex-start;
+	
+			overflow-x: scroll;
+			overflow-y: hidden;
+	
+			li {
+				flex-shrink: 0;
+				display: block;
+	
+				width: 470px;
+				height: 250px;
+	
+				margin: 20px;
+	
+				box-shadow: 0 0 15px rgba(0,0,0,0.3);
+				border-radius: 8px;
+	
+				position: relative;
+	
+				blockquote {
+	
+					position: absolute;
+					top:43px;
+					z-index: 999;
+	
+					text-align: center;
+	
+					font-size: 18px;
+	
+					p {
+						margin: 0;
+						padding: 0;
+					}
+					footer {
+						margin-top: 34px;
+						margin-bottom: 34px;
+						font-size: 16px;
+						font-style: normal;
+					}
+				}
+			}
+		}
+		&__ul-bg {
+			display: block;
+			position: absolute;
+			top:35px;
+			left: 50%;
+	
+			margin-left: -50px;
+	
+			font-family: Georgia, 'Times New Roman', Times, serif;
+			font-size: 250px;
+			color: #c5d4e7;
+		}
+	}
+}
+
 //Styles for Desktop
 
 @media(min-width:$desktop-width) {

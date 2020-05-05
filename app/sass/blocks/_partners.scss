@@ -74,6 +74,83 @@
 
 }
 
+// Styles for Tablet 
+
+@media(min-width:($tablet-width + 1px)) and (max-width:$desktop-width){
+	.partners {
+		padding-top:30px;
+		padding-bottom: 20px;
+		background-color: #f9f7f7;
+		&__logos {
+	
+			@include reset-list;
+	
+			width: 1030px;
+			margin: 70px auto;
+	
+			display: flex;
+			flex-flow: row wrap;
+	
+			justify-content: space-between;
+	
+			height: 70px;
+	
+			li a {
+				display: block;
+				height: 100%;
+	
+				background-repeat: no-repeat;
+				background-position: center;
+			}
+	
+			li.li001 a {
+				width: 53px;
+				background-image: url(../img/logo/001.png);
+			}
+			li.li001 a:hover,
+			li.li001 a:focus {
+				background-image: url(../img/logo/001c.png);
+			}
+	
+			li.li002 a {
+				width: 79px;
+				background-image: url(../img/logo/002.png);
+			}
+			li.li002 a:hover,
+			li.li002 a:focus {
+				background-image: url(../img/logo/002c.png);
+			}
+	
+			li.li003 a {
+				width: 150px;
+				background-image: url(../img/logo/003.png);
+			}
+			li.li003 a:hover,
+			li.li003 a:focus {
+				background-image: url(../img/logo/003c.png);
+			}
+	
+			li.li004 a {
+				width: 197px;
+				background-image: url(../img/logo/004.png);
+			}
+			li.li004 a:hover,
+			li.li004 a:focus {
+				background-image: url(../img/logo/004c.png);
+			}
+	
+			li.li005 a {
+				width: 276px;
+				background-image: url(../img/logo/005.png);
+			}
+			li.li005 a:hover,
+			li.li005 a:focus {
+				background-image: url(../img/logo/005c.png);
+			}
+		}
+	}
+}
+
 //Styles for Desktop
 
 @media(min-width:$desktop-width) {
