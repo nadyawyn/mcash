@@ -1,9 +1,8 @@
 .faq {
 	background-color: #f9f7f7;
+	padding-bottom: 70px;
 
 	&__wrapper {
-		outline: 1px solid salmon;
-
 		width: 1170px;
 		height: 330px;
 
@@ -16,9 +15,8 @@
 	}
 
 	&__item {
-		//flex-basis: 40%;
-		outline: 1px solid yellowgreen;
 
+		flex-shrink: 1;
 		width: 570px;
 
 		font-size: 15px;
@@ -45,7 +43,13 @@
 
 		color: #ffffff;
 		font-size: 20px;
+
+		cursor: pointer;
 	}
+	&__button:hover,
+	&__button:focus {
+			background-color: #4f8dda;
+		}
 }
 .section {
 
