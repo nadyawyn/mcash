@@ -1,4 +1,42 @@
+// ! Styles for Mobile
 
+@media(max-width:$tablet-width){
+	.how-it-works {
+		background-color: #f9f7f7;
+
+		&__ul {
+			@include reset-list;
+			width: 100%;
+	
+			display: flex;
+	
+			flex-flow: column wrap;
+			
+			text-align: center;
+	
+			margin-top: 20px;
+	
+			font-size: 18px;
+	
+			li {
+				//flex-basis: 30%;
+				margin-bottom: 10px;
+			}
+		}
+	
+		&__h3 {
+			font-size: 40px;
+			font-family: Georgia, 'Times New Roman', Times, serif;
+			color: #4c4c4c;
+	
+			font-weight: normal;
+
+			margin-top: 10px;
+			margin-bottom: 10px;
+	
+		}
+	}
+}
 
 //Styles for Desktop
 

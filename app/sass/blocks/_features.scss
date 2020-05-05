@@ -1,4 +1,84 @@
+// Styles for Mobile
 
+@media(max-width:$tablet-width){
+.features {
+	&__ul {
+		@include reset-list;
+		width: 100%;
+		box-shadow: 0 0 10px rgba(0,0,0,0.5);
+
+		display: flex;
+
+		flex-flow: column wrap;
+		justify-content: space-around;
+
+		align-content: center;	
+		margin-top: 30px;
+		margin-bottom: 30px;
+
+		li {
+			padding-top: 100px;
+
+			display: block;
+			width: 265px;
+			height: 190px;
+
+			p {
+				text-align: center;
+			}
+
+			position: relative;
+		}
+
+		.li001::before {
+			content: "";
+			position: absolute;
+			top:24px;
+			left: 50%;
+			margin-left: -38px;
+
+			background-image: url(../img/li1.png);
+			background-repeat: no-repeat;
+			background-position: center;
+			width: 76px;
+			height: 76px;
+		}
+		.li002::before {
+			content: "";
+			position: absolute;
+			top:24px;
+			left: 50%;
+			margin-left: -38px;
+
+			background-image: url(../img/li2.png);
+			background-repeat: no-repeat;
+			background-position: center;
+			width: 76px;
+			height: 76px;
+		}
+		.li003::before {
+			content: "";
+			position: absolute;
+			top:24px;
+			left: 50%;
+			margin-left: -38px;
+
+			background-image: url(../img/li3.png);
+			background-repeat: no-repeat;
+			background-position: center;
+			width: 76px;
+			height: 76px;
+		}
+	}
+
+	&__h3 {
+		font-family: Georgia, 'Times New Roman', Times, serif;
+		font-size: 28px;
+		font-weight: normal;
+		text-align: center;
+	}
+}
+}
 
 //Styles for Desktop
 

@@ -1,4 +1,4 @@
-// ! Styles for Mobile
+// Styles for Mobile
 
 @media(max-width:$tablet-width){
 	.page-header {
@@ -13,7 +13,7 @@
 			background-color: #ededed;
 		}
 		&__logo {
-			width: 150px;
+			width: 180px;
 			height: 45px;
 	
 			background-image: url(../img/logo.png);
@@ -98,7 +98,6 @@
 		}
 		&__form-right {
 			padding: 10px;
-			
 			text-align: center;
 	
 		}
@@ -158,7 +157,7 @@
 	}
 }
 
-// ! Styles for Desktop
+// Styles for Desktop
 
 @media(min-width:$desktop-width) {
 .page-header {
