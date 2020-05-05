@@ -811,19 +811,24 @@ section {
           -ms-flex-pack: end;
               justify-content: flex-end;
       color: #ffffff;
-      font-size: 18px; }
+      font-size: 18px;
+      text-align: center; }
       .plans-calc__form input {
         width: 232px;
         height: 10px;
         padding: 20px;
         margin-top: 15px;
         margin-bottom: 15px;
+        margin-right: auto;
+        margin-left: auto;
         border-radius: 30px;
         border: none; }
       .plans-calc__form .button {
         width: 272px;
         height: 50px;
         margin-bottom: 20px;
+        margin-right: auto;
+        margin-left: auto;
         color: #ffffff;
         border: 2px solid #ffffff;
         background: none;
