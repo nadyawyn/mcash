@@ -6,7 +6,6 @@
 	&__wrapper {
 		padding: 0;
 
-		outline: 1px solid red;
 		position: relative;
 
 		width: 1170px;
@@ -35,7 +34,6 @@
 	}
 
 	&__map-include {
-		outline: 1px solid seagreen;
 
 		overflow: hidden;
 		margin: 0;
@@ -45,8 +43,6 @@
 		left: 0;
 		width: 100%;
 
-		text-align: center;
-		//margin-left: -50%;
 	}
 
 	&__google-map {
