@@ -1,4 +1,57 @@
+// Styles for Mobile
 
+@media(max-width:$tablet-width){
+	.faq {
+		background-color: #f9f7f7;
+		padding-bottom: 30px;
+	
+		&__wrapper {
+			margin: 0 auto;
+			display: flex;
+			flex-flow: column wrap;
+	
+			justify-content: flex-start;
+			align-content: space-between;
+		}
+	
+		&__item {
+	
+			flex-shrink: 1;
+	
+			font-size: 15px;
+			line-height: 1.5em;
+	
+			h3 {
+				font-size: 20px;
+				font-weight: normal;
+				margin-bottom: 20px;
+	
+			}
+		}
+	
+		&__button {
+			display: block;
+			background-color: #3f72af;
+			border-radius: 20px;
+			width: 200px;
+			height: 50px;
+	
+			border: none;
+	
+			margin: 0 auto;
+	
+			color: #ffffff;
+			font-size: 20px;
+	
+			cursor: pointer;
+		}
+		&__button:hover,
+		&__button:focus {
+				background-color: #4f8dda;
+			}
+	}
+
+}
 
 //Styles for Desktop
 
