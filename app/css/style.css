@@ -76,10 +76,11 @@ section {
 @media (max-width: 768px) {
   .page-header__top-wrapper {
     width: 100%;
-    height: 100px;
+    height: 120px;
+    padding-top: 15px;
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
-    padding: 10px;
+    padding: 15px;
     background-color: #ededed; }
   .page-header__logo {
     width: 180px;
@@ -111,7 +112,7 @@ section {
     -webkit-justify-content: space-between;
         -ms-flex-pack: justify;
             justify-content: space-between;
-    margin-top: 10px;
+    margin-top: 20px;
     margin-left: -5px; }
     .page-header__nav-ul li {
       display: block; }
@@ -594,6 +595,47 @@ section {
       font-family: Georgia, 'Times New Roman', Times, serif;
       color: #4c4c4c;
       font-weight: normal; } }
+
+@media (max-width: 768px) {
+  .offer {
+    padding-top: 50px;
+    padding-bottom: 50px; }
+    .offer__box {
+      width: 100%;
+      -webkit-box-sizing: border-box;
+              box-sizing: border-box;
+      height: 280px;
+      margin: 0 auto;
+      background-color: #3f72af;
+      color: #ffffff;
+      padding: 20px 30px;
+      -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+              box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+      background-image: url(../img/box-bg001.png);
+      background-repeat: no-repeat;
+      background-position: top 0 left -90px;
+      background-size: cover; }
+      .offer__box p {
+        font-size: 18px;
+        line-height: 1.2em;
+        text-align: center; }
+    .offer__h2 {
+      font-family: "Myriad Pro", Arial, Helvetica, sans-serif;
+      font-size: 28px;
+      text-align: center; }
+    .offer__button {
+      background-color: #112d4e;
+      border-radius: 30px;
+      padding: 20px;
+      width: 160px;
+      display: block;
+      margin: 0 auto;
+      text-align: center;
+      font-size: 18px;
+      cursor: pointer; }
+    .offer__button:hover, .offer__button:focus {
+      background-color: #15365e;
+      color: #efefef; } }
 
 @media (min-width: 1240px) {
   .offer {
