@@ -697,6 +697,44 @@ section {
   font-size: 250px;
   color: #c5d4e7; }
 
+.map {
+  position: relative;
+  margin: 0;
+  padding: 0; }
+  .map__wrapper {
+    padding: 0;
+    outline: 1px solid red;
+    position: relative;
+    width: 1170px;
+    height: 500px;
+    margin: 0 auto; }
+  .map__contact {
+    position: absolute;
+    right: 30px;
+    top: 30px;
+    -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    width: 210px;
+    height: 250px;
+    padding: 30px;
+    z-index: 999;
+    border-radius: 8px;
+    background-color: #ffffff; }
+  .map__map-include {
+    outline: 1px solid seagreen;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    text-align: center; }
+  .map__google-map {
+    width: 100%;
+    height: 500px; }
+
 .page-footer {
   background-color: #112d4e;
-  color: #ffffff; }
+  color: #ffffff;
+  margin-top: -15px; }
