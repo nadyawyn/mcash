@@ -22,7 +22,7 @@
 		box-shadow: 0 0 10px rgba(0,0,0,0.5);
 
 		width: 210px;
-		height: 250px;
+		height: 300px;
 
 		padding: 30px;
 
@@ -31,6 +31,17 @@
 		border-radius: 8px;
 
 		background-color: #ffffff;
+
+		color: #333333;
+
+		h3 {
+			font-size: 26px;
+			font-weight: normal;
+		}
+
+		p {
+			margin-bottom: 32px;
+		}
 	}
 
 	&__map-include {
