@@ -3,7 +3,7 @@
 	&__ul {
 		display: flex;
 		flex-flow: row nowrap;
-		justify-content: space-around;
+		justify-content: flex-start;
 
 		overflow-x: scroll;
 		overflow-y: hidden;
