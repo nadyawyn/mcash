@@ -1,3 +1,8 @@
+
+
+//Styles for Desktop
+
+@media(min-width:$desktop-width) {
 .offer {
 	padding-top: 100px;
 	padding-bottom: 100px;
@@ -62,4 +67,5 @@
 
 		color: #efefef;
 	}
+}
 }

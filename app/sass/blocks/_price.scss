@@ -1,3 +1,8 @@
+
+
+//Styles for Desktop
+
+@media(min-width:$desktop-width) {
 .price {
 	padding-bottom: 100px;
 	&__ul {
@@ -128,5 +133,5 @@
 		
 		line-height: 2.5em;
 	}
-
+}
 }

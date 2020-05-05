@@ -1,3 +1,8 @@
+
+
+//Styles for Desktop
+
+@media(min-width:$desktop-width) {
 .partners {
 	padding-bottom: 20px;
 	background-color: #f9f7f7;
@@ -68,4 +73,5 @@
 			background-image: url(../img/logo/005c.png);
 		}
 	}
+}
 }

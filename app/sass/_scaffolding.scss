@@ -1,4 +1,5 @@
 //Styles for Mobile
+
 html {
 	scroll-behavior: smooth;
 }
@@ -37,7 +38,12 @@ img {
 
 section {
 	width: 100%;
-	padding-top: 72px;
+	box-sizing: border-box;
+}
+@media(max-width:$tablet-width){
+	section {
+		padding: 10px;
+	}
 }
 
 .section__h2 {
@@ -45,19 +51,20 @@ section {
 
 	font-family: Georgia, 'Times New Roman', Times, serif;
 
-	font-size: 36px;
+	font-size: 28px;
 
 	color: #112d4e;
 
 	font-weight: normal;
 }
 
+
 .section__subtitle {
 	display: block;
 	text-align: center;
 	text-transform: uppercase;
 	color: #4c4c4c;
-	font-size: 14px;
+	font-size: 12px;
 
 	position: relative;
 }
@@ -69,13 +76,33 @@ section {
 
 	position: absolute;
 	left: 50%;
-	top: -18px;
+	top: -13px;
 
 	margin-left: -20px;
 
 	background-color: #3f72af;
 }
 
+//Styles for Desktop
+
+@media(min-width:$desktop-width) {
+
+section {
+	padding-top: 72px;
+}
+
+.section__h2 {
+	font-size: 36px;
+}
+
+.section__subtitle {
+	font-size: 14px;
+}
+
+.section__subtitle::before {
+	top: -18px;
+}
+}
 
 @import "blocks/page-header";
 @import "blocks/features";

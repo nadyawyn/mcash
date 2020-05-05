@@ -1,3 +1,8 @@
+
+
+//Styles for Desktop
+
+@media(min-width:$desktop-width) {
 .features {
 
 	&__wrapper {
@@ -80,4 +85,5 @@
 		font-weight: normal;
 		text-align: center;
 	}
+}
 }

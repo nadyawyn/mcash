@@ -1,3 +1,8 @@
+
+
+//Styles for Desktop
+
+@media(min-width:$desktop-width) {
 .map {
 	position: relative;
 	margin: 0;
@@ -60,4 +65,5 @@
 		width: 100%;
 		height: 500px;
 	}
+}
 }

@@ -1,3 +1,10 @@
+
+
+//Styles for Desktop
+
+@media(min-width:$desktop-width) {
+
+
 .faq {
 	background-color: #f9f7f7;
 	padding-bottom: 70px;
@@ -50,4 +57,6 @@
 	&__button:focus {
 			background-color: #4f8dda;
 		}
+}
+
 }
