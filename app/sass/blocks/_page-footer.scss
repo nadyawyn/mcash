@@ -3,7 +3,29 @@
 	color: #ffffff;
 
 	margin-top: -15px;
+
+	padding-bottom: 50px;
+
+	&__wrapper {
+		display: flex;
+
+		flex-flow: row nowrap;
+		justify-content: space-between;
+
+		margin-left: 55px;
+		margin-right: 55px;
+		padding-top: 70px;
+
+		border-bottom: 1px solid #ffffff;
+
+	}
+	&__item {
+		flex-shrink: 1;
+	}
+
 	&__company-info {
+		width: 370px;
+		height: 200px;
 	}
 
 	&__logo {
@@ -25,5 +47,7 @@
 	}
 
 	&__legal-address {
+		padding-top: 40px;
+		text-align: center;
 	}
 }
